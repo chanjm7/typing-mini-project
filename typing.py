@@ -1,7 +1,12 @@
 import string
 import random
+import sqlite3
+import datetime
 
 
+now = datetime.datetime.now()
+nowDatetime = now.strftime('%y-%m-%d %H:%M:%S')
+print(nowDatetime)
 round = 1
 correct_count = 0
 wrong_count = 0
